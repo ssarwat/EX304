@@ -7,11 +7,11 @@
 <body>
 
     <a href="/">Show All TODOs</a><br/>
-    Task: <span th:text="${todo.task}"></span><br/>
-    Due Date: <span th:text="${todo.dueDate}"></span><br/>
-    Priority: <span th:text="${todo.priority}"></span><br/>
+    YEAR: <span th:text="${car.year}"></span><br/>
+    MAKE: <span th:text="${car.make}"></span><br/>
+    MODEL: <span th:text="${car.cmodel}"></span><br/>
 
-    <a th:href="@{/delete/{id}(id=${todo.id})}">Delete this Task</a>
+    <a th:href="@{/delete/{id}(id=${car.id})}">Delete this car</a>
 
 </body>
 </html>
